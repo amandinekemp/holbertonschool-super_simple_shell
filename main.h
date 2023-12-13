@@ -16,5 +16,6 @@
 
 /* Function prototypes */
 char **split_string(char *str);
+extern char **environ;
 
 #endif /* MAIN_H */
