@@ -1,7 +1,24 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include "main.h"
+/**
+* main - Entry point
+*
+* Return: Always 0
+*/
 
+int main(void)
+{
+	char **words = split_string("Hello, world! This is a test.");
+
+	int i = 0;
+
+	while (words[i] != NULL)
+	{
+		printf("%s\n", words[i]);
+		i++;
+	}
+
+	return (0);
+}
 /**
 * split_string - Splits a string into words
 * @str: The string to split
