@@ -4,7 +4,7 @@
 * main - prints the environment
 * @ac: number of arguments
 * @av: value of arguments
-* @env: value of environment
+* @env: An array of pointers to the environment variables
 * Return: Always 0.
 */
 int main(int ac, char **av, char **env)
