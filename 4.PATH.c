@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- *
- * Define a structure for the nodes of the linked list.
- * (Définir une structure pour les nœuds de la liste chaînée)
- * Each node contains a directory (as a string) and a pointer to the next node.
- * (Chaque nœud contient un répertoire (sous forme de chaîne de caractères) et un pointeur vers le nœud suivant)
+ * Structure for linked list nodes, each containing a directory and a pointer to the next node.
+ * (Structure pour les nœuds d'une liste chaînée, chacun contenant un répertoire et un pointeur vers le nœud suivant.)
+ * 
+ * Return: 0
  */
 
 typedef struct Node
